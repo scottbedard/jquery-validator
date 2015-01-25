@@ -47,6 +47,9 @@
     var_dump ($rules);
     ?>
 
+    
+    <button id="validate">Validate</button>
+
     <form id="form"
         data-validation="<?= htmlspecialchars(json_encode($rules)) ?>"
         data-validation-messages="<?= htmlspecialchars(json_encode($messages)) ?>"
@@ -190,10 +193,8 @@
         </p>
     </form>
 
-    <button id="validate">Validate</button>
-
     <script src="../jquery.min.js"></script>
-    <script src="../validator.min.js"></script>
+    <script src="../validator.js"></script>
     <script src="test.js"></script>
     </body>
 </html>
