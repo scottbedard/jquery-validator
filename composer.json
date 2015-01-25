@@ -1,0 +1,12 @@
+{
+    "name": "bedard/jquery-validator",
+    "description": "jQuery validation using Laravel rules.",
+    "homepage": "http://scottbedard.net",
+    "keywords": ["jquery", "laravel", "validation"],
+    "authors": [
+        {
+            "name": "Scott Bedard",
+            "email": "scottbedard90@gmail.com"
+        }
+    ]
+}
